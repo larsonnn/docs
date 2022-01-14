@@ -16,7 +16,7 @@ Vous pouvez gérer facilement vos projets Public Cloud OVHcloud depuis l'[interf
 
 ## Prérequis
 
-- Avoir créé une instance Public Cloud depuis votre [espace client](../premiers-pas-instance-public-cloud/) ou l'[interface Horizon](https://docs.ovh.com/fr/public-cloud/creer-une-instance-dans-horizon/).
+- Avoir créé une instance Public Cloud depuis votre [espace client OVHcloud](../premiers-pas-instance-public-cloud/) ou l'[interface Horizon](https://docs.ovh.com/fr/public-cloud/creer-une-instance-dans-horizon/).
 - [Avoir créé une clé SSH](../creation-des-cles-ssh/).
 
 ## En pratique
@@ -36,7 +36,7 @@ Cliquez sur le menu `Compute`{.action} à gauche puis sélectionnez `Instances`{
   * l’adresse IPv4 et IPV6 de votre instance
   * son réseau privé associé et adresse IPv4 privé
   * son état (Status)
-  * l'image utilisée pour l'installation due l'instance (si applicable)
+  * l'image utilisée pour l'installation de l'instance (si applicable)
 
 ![public-cloud](images/options2022.png){.thumbnail}
 
@@ -50,11 +50,11 @@ Cette option vous permet de supprimer plusieurs instances en même temps, il suf
 
 **More Actions**
 
-Cette options vous donne la possibilité d'effectuer trois actions sur certaines ou toutes vos instances en même temps.
+Cette option vous donne la possibilité d'effectuer trois actions sur une ou plusieurs instances en même temps. Assurez vous de cocher la case à gauche du nom de l'instance pour pouvoir utiliser ces options.
 
-- Start Instances : Vous permet de rédemarrer certaines ou toutes vos instances en statut "shutoff ou off"
-- Shut Off Instances : Vous permet de suspendre certaines ou toutes vos instances.
-- Soft Reboot Instances : Vous permet de faire un rédemarrage logiciel sur certaines ou toutes vos instances.
+- Start Instances : Vous permet de rédemarrer une ou plusieurs instances en statut "shutoff ou off"
+- Shut Off Instances : Vous permet de suspendre une ou plusieurs instances.
+- Soft Reboot Instances : Vous permet de faire un rédemarrage logiciel sur une ou plusieurs instances.
 
 
 **Create Snapshot** : Vous permet de créé un snapshot (instantané) de votre instance. Consultez [ce guide](https://docs.ovh.com/fr/public-cloud/gestion-des-snapshots-dune-instance-dans-horizon/#creation-du-snapshot) pour plus d'informations.
