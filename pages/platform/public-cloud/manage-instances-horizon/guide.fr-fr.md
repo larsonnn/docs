@@ -27,7 +27,7 @@ Tout d’abord, connectez-vous à l'[interface Horizon](https://horizon.cloud.ov
 
 Contrairement à l'espace client OVHcloud, Horizon sépare vos services selon leur région. Vous pouvez choisir la région depuis le menu en haut à gauche :
 
-![public-cloud]
+![public-cloud](images/region2021.png){.thumbnail}
 
 Cliquez sur le menu `Compute`{.action} à gauche puis sélectionnez `Instances`{.action}. Sur la page qui s’affiche, vous verrez un résumé de toutes vos instances. Plusieurs informations vont s’afficher ici :
 
@@ -38,7 +38,7 @@ Cliquez sur le menu `Compute`{.action} à gauche puis sélectionnez `Instances`{
   * son état (Status)
   * l'image utilisée pour l'installation de l'instance (si applicable)
 
-![public-cloud]
+![public-cloud](images/options2022.png){.thumbnail}
 
 **Launch Instance** 
 
@@ -64,7 +64,7 @@ Cette option vous donne la possibilité d'effectuer trois actions sur une ou plu
 
 Dans l’interface de gestion de l’instance,  sélectionnez l'option desirez dans la liste déroulante. 
 
-![public-cloud]
+![public-cloud](images/list2022.png){.thumbnail}
 
 - Attach Interface : Permet d'ajouter une ou plusieurs interfaces privées à votre instance via le VLAN. Pour plus d'information, consulter [cette partie](https://docs.ovh.com/fr/public-cloud/public-cloud-vrack/#ajout-dune-interface-privee) du guide correspondant.
 - Detach Interface : Permet de supprimer une interface lié à une instance. Pour plus d'information, consulter [cette partie](https://docs.ovh.com/fr/public-cloud/public-cloud-vrack/#suppression-dune-interface-privee) du guide correspondant.
@@ -92,11 +92,11 @@ Grâce au Public Cloud, vous pouvez augmenter les ressources dont votre instance
 
 Sélectionnez `Resize Instance`{.action} dans le menu déroulant à droite de l'instance concernée.
 
-![Resize instance]
+![Resize instance](images/resizeinstance2022.png){.thumbnail}
 
 * Choix du gabarit (*Flavor Choice*) : Cette section indique le gabarit actuel (*old flavor*) et vous permet de sélectionner un nouveau gabarit (*new flavor*) pour la ressource de l'instance.
 
-![public-cloud]
+![public-cloud](images/flavorchoice.png){.thumbnail}
 
 * Détails de gabarit (*Flavor Details*)
 
@@ -114,7 +114,8 @@ Visionnez ici les ressources occupées par rapport aux ressources totales allou�
 
 Cette section permet de gérer le partitionnement du disque (*Disk Partition*) et le groupe  de serveurs (*Server Group*).
 
-![public-cloud]
+![public-cloud](images/resize_advanced.png){.thumbnail}
+
 
 Une fois la configuration terminée, cliquez sur `Resize`{.action}.
 
@@ -124,23 +125,23 @@ Attention, lors d'un redimensionnement pour une Instance Windows, la taille de l
 
 - Faites un clic droit sur le menu `Démarrer`{.action} et lancez le gestionnaire de disque en cliquant sur `Gestion du disque`{.action} :
 
-![public-cloud]
+![public-cloud](images/2980.png){.thumbnail}
 
 - Faites un clic droit sur la partition principale, puis cliquez sur `Étendre le volume`{.action}.
 
-![public-cloud]
+![public-cloud](images/2981a.png){.thumbnail}
 
 - Cliquez sur `Suivant`{.action} pour accéder à « l'Assitant Extension du volume ». Choisissez les ressources du disque à étendre et cliquez sur `Suivant`{.action}. 
 
-![public-cloud]
+![public-cloud](images/2978a.png){.thumbnail}
 
 Cliquez ensuite sur `Terminer`{.action} pour valider votre choix.
 
-![public-cloud]
+![public-cloud](images/wizard2021.png){.thumbnail}
 
 - La nouvelle taille du disque sera alors affichée dans le gestionnaire de disque.
 
-![public-cloud]
+![public-cloud](images/2979.png){.thumbnail}
 
 ### Reconstruire une instance
 
@@ -153,7 +154,7 @@ Cette option vous permet de reconfigurer votre instance sur une nouvelle base, o
 - Sélectionner `Rebuild Instance`{.action} dans la liste déroulante correspondant à l'instance.
 
 
-![public-cloud]
+![public-cloud](images/rebuildinstance.png){.thumbnail}
 
 - Sélectionner l'image pour la reconstruction.
 - Sélectionner le type de partitionnement ("Automatique" ou "Manuel"). Ceci est facultatif.
@@ -178,7 +179,7 @@ En cas de perte d’accès à votre instance, que cela soit suite à une mauvais
 
 Dans la liste déroulante correspondant à l'instance, sélectionner `Console`{.action}.
 
-[public-cloud]
+![public-cloud](images/accessconsole.png){.thumbnail}
 
 - la console de l'instance apparaît.
 
@@ -190,7 +191,7 @@ Dans la liste déroulante correspondant à l'instance, sélectionner `Console`{.
 
 **Console de l'instance**
 
-![public-cloud]
+![public-cloud](images/console.png){.thumbnail}
 
 ### Redémarrer une instance
 
@@ -200,7 +201,7 @@ Deux méthodes existent pour redémarrer une instance :
 
 Dans la liste déroulante correspondant à l'instance, sélectionnez soit `Soft Reboot Instance`{.action} soit `Hard Reboot Instance`{.action}.
 
-![public-cloud]
+![public-cloud](images/rebootinstance.png){.thumbnail}
 
 Ensuite confirmez votre requête dans la fenêtre qui s’affiche.
 
@@ -216,7 +217,7 @@ Si vous n’avez plus besoin de l’une de vos instances, vous pouvez à tout mo
 
 Dans la liste déroulante correspondant à l'instance, sélectionnez `Delete Instance`{.action}. 
 
-![public-cloud]
+![public-cloud](images/deleteinstance.png){.thumbnail}
 
 Cliquez ensuite sur `Confirm`{.action} pour lancer le processus.
 
