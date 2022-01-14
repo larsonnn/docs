@@ -1,8 +1,8 @@
 ---
-title: 'Gérer vos instances Public Cloud'
-slug: debuter-avec-une-instance-public-cloud
-excerpt: 'Découvrez gérer vos instances Public Cloud à travers l'interface Horizon'
-section: 'Gestio depuis Horizon'
+title: Gérer vos instances Public Cloud
+slug: gerer-instances-public-cloud
+excerpt: Découvrez comment gérer vos instances à travers l'interface Horizon
+section: Gestion depuis Horizon
 order: 4
 ---
 
